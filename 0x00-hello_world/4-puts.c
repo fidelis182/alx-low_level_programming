@@ -4,11 +4,11 @@
  * main function prints
  *"Programming is like building a multilingual puzzle"
  */
-
 int main(void)
 {
 	char Mystr[] = "Programming is like building a multilingual puzzle";
 
 	puts(Mystr);
+	/* the function returns 0 */
 	return (0);
 }
