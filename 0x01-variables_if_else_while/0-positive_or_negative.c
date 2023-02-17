@@ -2,9 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/*main-prints the value on n either positive, negative or zero*/
 
-/* betty style doc for function main goes there */
+/*betty style doc for function main goes there */
+/**
+ *main-entry point
+ *Return:0
+ */
 int main(void)
 {
 	int n;
