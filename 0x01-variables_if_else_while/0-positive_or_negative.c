@@ -9,20 +9,19 @@
 int main(void)
 {
 	int n;
-
-	printf("enter n,\n");
+	
 	scanf("%d",&n);
-	if(n>0)
+	if (n > 0)
 	{
-		printf("is positive\n");
+		printf( "is positiv" );
 	}
-	else if (n==0)
+	else if (n == 0)
 	{ 
-		printf("is zero\n");
+		printf( "is zero" );
 	}
 	else
 	{
-		printf("is negative\n");
+		printf( "is negative" );
 	}
 	return (0);
 }
