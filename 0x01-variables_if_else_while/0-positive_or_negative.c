@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/*main- prints the value on n*/
+/*main-prints the value on n either positive, negative or zero*/
+
 /* betty style doc for function main goes there */
 int main(void)
 {
