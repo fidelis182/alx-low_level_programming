@@ -10,18 +10,18 @@ int main(void)
 {
 	int n;
 	
-	scanf("%d",&n);
+	scanf( "%d", &n );
 	if (n > 0)
 	{
-		printf( "is positiv" );
+		printf( "98 is positive" );
 	}
 	else if (n == 0)
 	{ 
-		printf( "is zero" );
+		printf( "0 is zero" );
 	}
 	else
 	{
-		printf( "is negative" );
+		printf( "-98 is negative" );
 	}
 	return (0);
 }
