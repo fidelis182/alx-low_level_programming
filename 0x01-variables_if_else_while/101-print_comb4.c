@@ -17,7 +17,7 @@ int main(void)
 				putchar(b % 10 + '0');
 				putchar(c % 10 + '0');
 
-				if (n == 8 && b == 9 && c == 9)
+				if (n == 7 && b == 8 && c == 9)
 					continue;
 				putchar(',');
 				putchar(' ');
