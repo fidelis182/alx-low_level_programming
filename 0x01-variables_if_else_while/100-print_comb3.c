@@ -6,15 +6,20 @@
 int main(void)
 {
 	int n;
+	int b;
 
-	for (n = 1; n < 90; n++)
+	for (n = 0; n < 9; n++)
 	{
-		putchar(n / 10+ '0');
-		putchar(n % 11 + '0');
-		if (n < 89)
+		for (b = n + 1; b < 10; b++)
 		{
-			putchar(',');
-			putchar(' ');
+		putchar(n % 10 + '0');
+		putchar(b % 10 + '0');
+
+		if (n == 8 && b == 9)
+			continue;
+
+		putchar(',');
+		putchar(' ');
 		}
 	}
 	putchar('\n');
