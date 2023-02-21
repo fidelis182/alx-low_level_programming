@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *function print_alphabet returns void
+ *User defined function print_alphabet that has void
+ *parameters. The function prints void since its data type is void
+ *return void.
  */
 void print_alphabet(void)
 {
