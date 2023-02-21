@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *user defined function print_alphabet_x10 takea void arguments
- *No return value sinc the return type is void
+ * print_alphabet - writes the character void to stdout
+ *
+ * Return: On success 0.
  */
 void print_alphabet_x10(void)
 {
