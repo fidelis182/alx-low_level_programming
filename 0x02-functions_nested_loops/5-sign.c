@@ -2,7 +2,7 @@
 /**
  * print_sign - check if int n is greater than or less than 0
  * @n: is the int to be checked
- * Return: 1 if n is greater than 0, -1 if n is less than 0, otherwise return 0.
+ * Return: 1 if n is greater than 0, -1 if n is less than 0, otherwise 0.
  */
 int print_sign(int n)
 {
