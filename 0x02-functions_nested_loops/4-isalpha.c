@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *islower - writes the character c to stdout
+ *isalpha - writes the character c to stdout
  *@c. functio returns output of type int
  *
  *Return - returns 1 when c is lowercase or uppercase
@@ -12,7 +12,7 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else 
+       else 
 	{
 		return (0);
 	}
