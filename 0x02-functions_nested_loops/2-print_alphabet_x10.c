@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - writes the character void to stdout
+ * print_alphabet_x10 - writes the character void to stdout
  *
  * Return: On success 0.
  */
