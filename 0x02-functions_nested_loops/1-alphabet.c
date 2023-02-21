@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *User defined function print_alphabet that has void
- *parameters. The function prints void since its data type is void
- *return void.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 0.
  */
 void print_alphabet(void)
 {
