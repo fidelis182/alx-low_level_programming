@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ *user defined function print_alphabet_x10 takea void arguments
+ *No return value sinc the return type is void
+ */
 void print_alphabet_x10(void)
 {
 	char c;
