@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *functio _abs- Returns the absolute value of the given integer.
- *
- * @a The integer to take the absolute value of.
- * @return The absolute value of a.
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
 int _abs(int a)
 {
