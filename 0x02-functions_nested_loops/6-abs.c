@@ -1,7 +1,10 @@
 #include "main.h"
+
 /**
- *function _abs - takes an integer argument 'a' and returns its absolute value
- *Return: return '-a' if 'a' is less than 0, otherwise 'a'
+ *functio _abs- Returns the absolute value of the given integer.
+ *
+ * @a The integer to take the absolute value of.
+ * @return The absolute value of a.
  */
 int _abs(int a)
 {
