@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *add - take two arguments('a' and'b') and returns their sum
+ *add - adds two integers('a' and 'b') and returns the result.
  */
 int add(int a, int b)
 {
-	return a + b;
+	return (a + b);
 }
