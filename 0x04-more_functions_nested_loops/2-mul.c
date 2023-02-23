@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *add - Makes the multiplication of two numbers
+ *mul - Makes the multiplication of two numbers
  *@a: First operand
  *@b: Second operand
  *
