@@ -1,34 +1,4 @@
 #include <stdio.h>
-#include "main.h"
-/**
- *print_fizz_buzz - print numbers from 1 to 100
- *
- *Return: checks if the conditions are met
- */
-void print_fizz_buzz(void)
-{
-	int i;
-
-	for (i = 1; i <= 100; i++)
-	{
-		if ((i % 3 == 0) && (i % 5 == 0))
-		{
-			printf("FizzBuzz\t");
-		}
-		else if (i % 3 == 0)
-		{
-			printf("Fizz\t");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("Buzz\t");
-		}
-		else
-		{
-			printf("%d\t", i);
-		}
-	}
-}
 
 /**
  *main - entry point
@@ -36,6 +6,24 @@ void print_fizz_buzz(void)
  */
 int main(void)
 {
-	print_fizz_buzz();
+	int i;
+
+	for (i = 1; i <= 100; i++)
+	{
+		if ((i % 3 == 0) && (i % 5 == 0))
+		{
+			printf("FizzBuzz ");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+		else if (i % 5 == 0)
+		{
+			printf("Buzz ");
+		}
+		else
+			printf("%d ", i);
+	}
 	return (0);
 }
