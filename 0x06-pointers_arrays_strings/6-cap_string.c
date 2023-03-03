@@ -8,17 +8,24 @@
  */
 char *cap_string(char *cap)
 {
-	int n = 0;
-	int isspace(int cap);
-	int toupper(int cap);
+	char punctuation[13] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+	int i, j;
 
-	while (cap[n] != '\0')
+	for (i = 0; cap[i] != '\0'; i++)
 	{
-		if (n == 0 || isspace(cap[n - 1]))
+		if (i == 0 && (cap[i] >= 97 && cap[i] <= 122))
+			cap[i] = cap[i] - 32;
+		for (j = 0; j < 13; j++)
 		{
-			cap[n] = toupper(cap[n]);
+			if (cap[i] == punctuation[j])
+			{
+				if (cap[i + 1] >= 97 && cap[i + 1] < 122)
+				cap[i + 1] = cap[i + 1]
+				- 32;
+			}
+			else
+				continue;
 		}
-		n++;
 	}
 	return (cap);
 }
