@@ -3,13 +3,13 @@
 
 /**
  *main - entry point.
- *@argc: number of arguments passed
+ *@argc :number of arguments
  *@argv: vector value
  *
  *Return: 0 always
  */
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("argc = %d\n", argc);
+	printf("%s\n", *argv);
 	return (0);
 }
