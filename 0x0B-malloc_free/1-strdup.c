@@ -20,6 +20,6 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	memcpy(new, str, a);
+	free (new);
 	return (new);
-	free(new);
 }
